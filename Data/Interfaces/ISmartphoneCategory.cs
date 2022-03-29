@@ -1,11 +1,12 @@
-﻿using System;
+﻿
+
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Мarketplace.Data.Models;
 
 namespace Мarketplace.Data.Interfaces
 {
     public interface ISmartphoneCategory
     {
+        IEnumerable<Сategory> AllCategories { get; }
     }
 }
