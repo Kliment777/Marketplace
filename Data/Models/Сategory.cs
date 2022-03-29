@@ -4,9 +4,9 @@ namespace Мarketplace.Data.Models
 {
     public class Сategory 
     {
-        public int id { get; set; } 
-        public string categoryName { get; set; } // название категории 
-        public string description { get; set; } // описание
+        public int Id { get; set; } 
+        public string CategoryName { get; set; } // название категории 
+        public string Description { get; set; } // описание
 
         public List<Smartphone> Electronics { get; set; } //электроника
     }
