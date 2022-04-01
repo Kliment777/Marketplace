@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-
-
+using Мarketplace.Data.Interfaces;
+using Мarketplace.Data.Mocks;
 
 namespace Мarketplace
 {
@@ -10,6 +10,8 @@ namespace Мarketplace
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<ISmartphoneCategory, MockCategory>();
+            services.AddTransient<IAllSmartphones, MockSmartphone>();
             services.AddMvc();
         }
 
