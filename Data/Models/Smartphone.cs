@@ -8,7 +8,7 @@ namespace Мarketplace.Data.Models
         public string ShortDescription { get; set; } //краткое описание смартфона
         public string LongDescription { get; set; } //полное описание
         public string Img { get; set; } //картинка
-        public ushort Price { get; set; } // цена
+        public int Price { get; set; } // цена
         public bool IsFavourite { get; set; } //популярный товар
         public bool Available { get; set; } // наличие
         public int CategoryId { get; set; }
