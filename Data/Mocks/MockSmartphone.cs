@@ -29,7 +29,7 @@ namespace Мarketplace.Data.Mocks
                         Available=true,
                         Category= smartphoneCategory.AllCategories.First()
 
-                        
+
                     },
                     new Smartphone
                     {
@@ -175,11 +175,13 @@ namespace Мarketplace.Data.Mocks
                     },
                     new Smartphone
                     {
-                        Designation ="",
-                        ShortDescription="",
-                        LongDescription="",
+                        Designation ="Galaxy M32",
+                        ShortDescription="White 128GB",
+                        LongDescription="Samsung Galaxy M32 – стильный и удобный смартфон с 6,4-дюймовым экраном, разрешение которого" +
+                        " составляет 1080 х 2400 пикселей. Дисплей, созданный на основе матрицы Super AMOLED, воспроизводит яркое, " +
+                        "детализированное изображение с безупречно реалистичными цветами.",
                         Img="",
-                        Price=109000,
+                        Price=27000,
                         IsFavourite=true,
                         Available=true,
                         Category= smartphoneCategory.AllCategories.First(x => x.Equals("Samsung"))
@@ -188,20 +190,109 @@ namespace Мarketplace.Data.Mocks
                     },
                     new Smartphone
                     {
-                        Designation ="",
-                        ShortDescription="",
-                        LongDescription="",
+                        Designation ="Samsung Galaxy M52",
+                        ShortDescription="Black 128GB",
+                        LongDescription="Samsung Galaxy M52 – функциональный и мощный смартфон со стильным минималистичным дизайном" +
+                        " и очень тонким корпусом. За высокую производительность в самых сложных сценариях отвечает восьмиядерный " +
+                        "процессор флагманского уровня и оперативка 6 Гб, которая в зависимости от стиля использования способна " +
+                        "расширяться виртуально на целых 4 Гб.",
                         Img="",
-                        Price=109000,
+                        Price=34000,
                         IsFavourite=true,
                         Available=true,
                         Category= smartphoneCategory.AllCategories.First(x => x.Equals("Samsung"))
 
 
                     },
+                    new Smartphone
+                    {
+                        Designation ="HUAWEI P Smart 2021",
+                        ShortDescription="Midnight Black 128 GB",
+                        LongDescription="Huawei P Smart 2021 – стильный смартфон в прочном пластиковом корпусе со специальным покрытием." +
+                        " Поверхность устойчива к механическим повреждениям, поэтому девайс сохранит свой первоначальный вид надолго, даже" +
+                        " если вы будете пользоваться им без чехла.",
+                        Img="",
+                        Price=16990,
+                        IsFavourite=true,
+                        Available=true,
+                        Category= smartphoneCategory.AllCategories.Last()
 
 
-                };
+                    },
+                    new Smartphone
+                    {
+                        Designation ="HUAWEI P50 Pro",
+                        ShortDescription="Cocoa Gold 128GB",
+                        LongDescription="Huawei P50 Pro — смартфон премиум-класса, в котором установлен восьмиядерный процессор Qualcomm Snapdragon" +
+                        " 888. Он работает под управлением фирменной операционной системы Android EMUI 12. В этой модели не поддерживаются сервисы " +
+                        "Google, но все необходимые программы и приложения можно найти в AppGallery.",
+                        Img="",
+                        Price=114000,
+                        IsFavourite=true,
+                        Available=true,
+                        Category= smartphoneCategory.AllCategories.Last()
+
+
+                    },
+                    new Smartphone
+                    {
+                        Designation ="HUAWEI nova 9",
+                        ShortDescription="Starry Blue",
+                        LongDescription="Huawei nova 9 – стильный смартфон с ультратонким корпусом, толщина которого составляет всего 7,77 мм.6,57-дюймовый" +
+                        " дисплей, созданный по технологии OLED, не просто занимает почти всю лицевую поверхность. Он ещё и закруглён на грани. Его разрешение" +
+                        " составляет 2340 х 1080 пикселей, а частота обновления – 120 Гц. Это значит, что изображение будет ярким, реалистичным и детализированным," +
+                        " а плавность в динамичных сценах порадует самого требовательного пользователя.",
+                        Img="",
+                        Price=42000,
+                        IsFavourite=true,
+                        Available=true,
+                        Category= smartphoneCategory.AllCategories.Last()
+
+
+                    },
+                    new Smartphone
+                    {
+                        Designation ="HUAWEI nova 8i",
+                        ShortDescription="Interstellar Blue 128GB",
+                        LongDescription="Сердце модели – восьмиядерный процессор Qualcomm Snapdragon 662. Он работает при поддержке солидного объёма оперативной памяти" +
+                        " и быстро запускает не только повседневные приложения, но и ресурсоёмкие игры. Аккумулятор 4300 мАч позволяет долго обходиться без подзарядки.",
+                        Img="",
+                        Price=22000,
+                        IsFavourite=true,
+                        Available=true,
+                        Category= smartphoneCategory.AllCategories.Last()
+
+
+                    },
+                    new Smartphone
+                    {
+                        Designation ="HUAWEI P40",
+                        ShortDescription="Silver Frost 128GB",
+                        LongDescription="Смартфон Huawei P40 подойдёт тем, кто любит много фотографировать и выкладывать оригинальные снимки в социальные сети. Тройная камера" +
+                        " Leica и двойной фронтальный модуль позволят получить кадры отличного качества в любой ситуации. Объёмные панорамы, детализированная макросъёмка," +
+                        " портреты и селфи с точной и естественной цветопередачей – им всё по плечу.",
+                        Img="",
+                        Price=44000,
+                        IsFavourite=true,
+                        Available=true,
+                        Category= smartphoneCategory.AllCategories.Last()
+
+
+                    },
+                    new Smartphone
+                    {
+                        Designation ="HUAWEI Y5p",
+                        ShortDescription="Mint Green 32GB",
+                        LongDescription="Huawei Y5p – стильный и производительный смартфон на основе восьмиядерного процессора Mediatek MT6762R и 2 Гб оперативной памяти." +
+                        " Девайс легко справляется с любыми задачами – от рабочих до развлекательных.",
+                        Img="",
+                        Price=8000,
+                        IsFavourite=true,
+                        Available=true,
+                        Category= smartphoneCategory.AllCategories.Last()
+
+
+                }   }; 
             }
         }
         
