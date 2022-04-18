@@ -8,7 +8,7 @@ namespace Мarketplace.Data.Mocks
     public class MockSmartphone : IAllSmartphones
     {
         private readonly ISmartphoneCategory smartphoneCategory = new MockCategory();
-        public IEnumerable<Smartphone> Electronics
+        public IEnumerable<Smartphone> Smartphones
         {
             get
             {
