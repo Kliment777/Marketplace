@@ -11,7 +11,7 @@ namespace Мarketplace
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<ISmartphoneCategory, MockCategory>();
-            services.AddTransient<IAllSmartphones, MockSmartphone>();
+            services.AddTransient<IAllSmartphones, MockSmartphones>();
             services.AddMvc();
         }
 
@@ -21,6 +21,10 @@ namespace Мarketplace
            app.UseStatusCodePages();
            app.UseStaticFiles();
            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(name: "default","{controller=Smartphones}/{action=List}");
+            });
         }
     }
 }

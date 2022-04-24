@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System;
 using Мarketplace.Data.Interfaces;
 using Мarketplace.Data.Models;
 
 namespace Мarketplace.Data.Mocks
 {
-    public class MockSmartphone : IAllSmartphones
+    public class MockSmartphones : IAllSmartphones
     {
         private readonly ISmartphoneCategory smartphoneCategory = new MockCategory();
         public IEnumerable<Smartphone> Smartphones
@@ -204,22 +205,24 @@ namespace Мarketplace.Data.Mocks
 
 
                     }
-                    
+
                 };
 
-            }   
+            }
         }
-    }
-        
-        public IEnumerable<Smartphone> GetFavoritSmartphone 
-        {   
-            get => throw new System.NotImplementedException(); 
-            set => throw new System.NotImplementedException(); 
+
+
+        public IEnumerable<Smartphone> GetFavoritSmartphone
+        {
+            get;
+            set;
         }
 
         public Smartphone GetObjectSmartphone(int smartphoneId)
         {
             throw new System.NotImplementedException();
         }
+
     }
 }
+
