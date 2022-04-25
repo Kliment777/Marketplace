@@ -1,4 +1,5 @@
-﻿
+﻿@using Мarketplace.Data.Models
+@model IEnumerable<Smartphone>
 @{
     Layout = null;
 }
@@ -11,6 +12,15 @@
     <title>List</title>
 </head>
 <body>
-    <h1>опорпор</h1>
+    <h2>Все смартфоны</h2>
+    @{
+        foreach(var smartphones in Model) 
+        {
+          <div>
+              <h2>Смартфон: @smartphones.Designation</h2>
+              <p>Цена: @smartphones.Price.ToString("c")</p>
+          </div>  
+        }
+     }
 </body>
 </html>
