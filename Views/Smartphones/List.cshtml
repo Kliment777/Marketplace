@@ -1,8 +1,5 @@
-﻿@using Мarketplace.Data.Models
-@model IEnumerable<Smartphone>
-@{
-    Layout = null;
-}
+﻿@using Мarketplace.ViewModels
+@model SmartphonesListViewModel
 
 <!DOCTYPE html>
 
@@ -12,9 +9,10 @@
     <title>List</title>
 </head>
 <body>
-    <h2>Все смартфоны</h2>
+    <h1>Все смартфоны</h1>
+    <h3>@Model.smartphonesCategory</h3>
     @{
-        foreach(var smartphones in Model) 
+        foreach(var smartphones in Model.allSmartphones) 
         {
           <div>
               <h2>Смартфон: @smartphones.Designation</h2>

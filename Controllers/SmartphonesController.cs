@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
+using Мarketplace.ViewModels;
 using Мarketplace.Data.Interfaces;
 
 namespace Мarketplace.Controllers
@@ -18,8 +17,10 @@ namespace Мarketplace.Controllers
         }
         public ViewResult List()
         {
-            var smartphones = _allSmartphones.Smartphones;
-            return View(smartphones);
+            SmartphonesListViewModel obj = new SmartphonesListViewModel();
+            obj.allSmartphones = _allSmartphones.Smartphones;
+            obj.smartphonesCategory = "Категории";
+            return View(obj);
         }
     }
 }
