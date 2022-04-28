@@ -81,7 +81,7 @@ namespace Мarketplace.Data.Mocks
                     },
                     new Smartphone
                     {
-                        Designation ="iPhone 13 mini 512GB",
+                        Designation ="iPhone 13 mini",
                         ShortDescription="Midnight 512GB",
                         LongDescription="iPhone 13 mini. Самая совершенная система двух камер на iPhone." +
                         " Режим «Киноэффект» делает из видео настоящее кино. Супербыстрый чип A15 Bionic." +
