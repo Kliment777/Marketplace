@@ -1,0 +1,8 @@
+﻿body {
+    background: url(http://n1s2.hsmedia.ru/fe/9a/d8/fe9ad8ea6bda75d3ee5a538b3020d662/1500x906_0x0a330ca2_10837987921531389487.jpeg); /* Путь к картинке */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Закрепляем изображение */
+}
+
