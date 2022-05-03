@@ -5,7 +5,8 @@
     @{
         foreach(var smartphones in Model.allSmartphones) 
         {
-          <div>
+          <div class="col-lg-4">
+              <img class="img-thumbnail" src="@smartphones.Img"alt="@smartphones.Designation" />
               <h2>Смартфон: @smartphones.Designation</h2>
               <p>Цена: @smartphones.Price.ToString("c")</p>
           </div>  

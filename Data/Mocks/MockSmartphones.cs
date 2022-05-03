@@ -24,7 +24,7 @@ namespace Мarketplace.Data.Mocks
                         " Контрастность 1400:1 (стандартная)Технология True Tone Широкий цветовой охват (P3) " +
                         "Тактильный отклик при нажатии Яркость до 625 кд/м² (стандартная) Олеофобное покрытие," +
                         " устойчивое к появлению следов от пальцев",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30052945bb.jpg",
                         Price=54000,
                         IsFavourite=true,
                         Available=true,
@@ -39,7 +39,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="iPhone 12 поражает возможностями. A14 Bionic, самый быстрый процессор" +
                         " iPhone. Новая система двух камер. И великолепный дисплей Super Retina XDR, на котором" +
                         " видно каждую деталь.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30052886bb1.jpg",
                         Price=74000,
                         IsFavourite=true,
                         Available=true,
@@ -56,7 +56,7 @@ namespace Мarketplace.Data.Mocks
                         "технологией ProMotion для более быстрого и плавного взаимодействия. А15 Bionic" +
                         " — самый быстрый чип для iPhone. Прочный корпус и самое долгое время работы без" +
                         " подзарядки среди iPhone",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30059073bb.jpg",
                         Price=164000,
                         IsFavourite=true,
                         Available=true,
@@ -71,7 +71,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="iPhone 13. Самая совершенная система двух камер на iPhone." +
                         " Режим «Киноэффект» делает из видео настоящее кино. Супербыстрый чип A15 Bionic." +
                         " Неутомимый аккумулятор. Прочный корпус. И ещё более яркий дисплей Super Retina XDR.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30059049bb.jpg",
                         Price=89000,
                         IsFavourite=true,
                         Available=true,
@@ -86,7 +86,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="iPhone 13 mini. Самая совершенная система двух камер на iPhone." +
                         " Режим «Киноэффект» делает из видео настоящее кино. Супербыстрый чип A15 Bionic." +
                         " Неутомимый аккумулятор. Прочный корпус. И ещё более яркий дисплей Super Retina XDR.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30059016bb.jpg",
                         Price=109000,
                         IsFavourite=true,
                         Available=true,
@@ -103,7 +103,7 @@ namespace Мarketplace.Data.Mocks
                         "технологией ProMotion для более быстрого и плавного взаимодействия. А15 Bionic" +
                         " — самый быстрый чип для iPhone. Прочный корпус и самое долгое время работы без" +
                         " подзарядки среди iPhone",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30059060bb.jpg",
                         Price=194000,
                         IsFavourite=true,
                         Available=true,
@@ -118,7 +118,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="Huawei P Smart 2021 – стильный смартфон в прочном пластиковом корпусе со специальным покрытием." +
                         " Поверхность устойчива к механическим повреждениям, поэтому девайс сохранит свой первоначальный вид надолго, даже" +
                         " если вы будете пользоваться им без чехла.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30053814bb2.jpg",
                         Price=16990,
                         IsFavourite=true,
                         Available=true,
@@ -133,7 +133,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="Huawei P50 Pro — смартфон премиум-класса, в котором установлен восьмиядерный процессор Qualcomm Snapdragon" +
                         " 888. Он работает под управлением фирменной операционной системы Android EMUI 12. В этой модели не поддерживаются сервисы " +
                         "Google, но все необходимые программы и приложения можно найти в AppGallery.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30061579bb1.jpg",
                         Price=114000,
                         IsFavourite=true,
                         Available=true,
@@ -149,7 +149,7 @@ namespace Мarketplace.Data.Mocks
                         " дисплей, созданный по технологии OLED, не просто занимает почти всю лицевую поверхность. Он ещё и закруглён на грани. Его разрешение" +
                         " составляет 2340 х 1080 пикселей, а частота обновления – 120 Гц. Это значит, что изображение будет ярким, реалистичным и детализированным," +
                         " а плавность в динамичных сценах порадует самого требовательного пользователя.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30060084bb1.jpg",
                         Price=42000,
                         IsFavourite=true,
                         Available=true,
@@ -163,7 +163,7 @@ namespace Мarketplace.Data.Mocks
                         ShortDescription="Interstellar Blue 128GB",
                         LongDescription="Сердце модели – восьмиядерный процессор Qualcomm Snapdragon 662. Он работает при поддержке солидного объёма оперативной памяти" +
                         " и быстро запускает не только повседневные приложения, но и ресурсоёмкие игры. Аккумулятор 4300 мАч позволяет долго обходиться без подзарядки.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30059394bb1.jpg",
                         Price=22000,
                         IsFavourite=true,
                         Available=true,
@@ -178,7 +178,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="Смартфон Huawei P40 подойдёт тем, кто любит много фотографировать и выкладывать оригинальные снимки в социальные сети. Тройная камера" +
                         " Leica и двойной фронтальный модуль позволят получить кадры отличного качества в любой ситуации. Объёмные панорамы, детализированная макросъёмка," +
                         " портреты и селфи с точной и естественной цветопередачей – им всё по плечу.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30048587bb1.jpg",
                         Price=44000,
                         IsFavourite=true,
                         Available=true,
@@ -192,7 +192,7 @@ namespace Мarketplace.Data.Mocks
                         ShortDescription="Mint Green 32GB",
                         LongDescription="Huawei Y5p – стильный и производительный смартфон на основе восьмиядерного процессора Mediatek MT6762R и 2 Гб оперативной памяти." +
                         " Девайс легко справляется с любыми задачами – от рабочих до развлекательных.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30049820bb2.jpg",
                         Price=8000,
                         IsFavourite=true,
                         Available=true,
@@ -207,7 +207,7 @@ namespace Мarketplace.Data.Mocks
                         " 2340 x 1080 пикселей. Частота обновления достигает 120 Гц, что обеспечивает максимально" +
                         " плавную анимацию и воспроизведение контента. В верхней части расположен вырез для " +
                         "32-мегапиксельной селфи-камеры.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30061115bb.jpg",
                         Price=59000,
                         IsFavourite=true,
                         Available=true,
@@ -222,7 +222,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="Корпус этой модели выполнен из усиленного поликарбоната и надёжно защищает" +
                         " внутренние микросхемы. Его сложно случайно поцарапать или сломать, поэтому даже при пользовании" +
                         " девайсом без чехла его привлекательный внешний вид сохранится на протяжении всего срока службы.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30056958bb.jpg",
                         Price=45000,
                         IsFavourite=true,
                         Available=true,
@@ -238,7 +238,7 @@ namespace Мarketplace.Data.Mocks
                         " чудеса – вы получаете чёткие детализированные кадры при ярком солнечном свете и в полной темноте." +
                         " Смартфон также умеет делать портреты с эффектом боке, широкоугольные панорамы и макрофотографии." +
                         " А ещё он может снимать видео на уровне экшн-камеры, передавая естественные движения в динамичных сценах.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30056206bb.jpg",
                         Price=39000,
                         IsFavourite=true,
                         Available=true,
@@ -253,7 +253,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="Фирменный процессор Exynos 850 обеспечивает быстрый запуск и плавную работу игр и приложений." +
                         " Приложение Samsung Members помогает оптимизировать настройки и распределить ресурсы системы для эффективного" +
                         " решения любых, даже самых сложных задач.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30058492bb.jpg",
                         Price=16000,
                         IsFavourite=true,
                         Available=true,
@@ -268,7 +268,7 @@ namespace Мarketplace.Data.Mocks
                         LongDescription="Samsung Galaxy M32 – стильный и удобный смартфон с 6,4-дюймовым экраном, разрешение которого" +
                         " составляет 1080 х 2400 пикселей. Дисплей, созданный на основе матрицы Super AMOLED, воспроизводит яркое, " +
                         "детализированное изображение с безупречно реалистичными цветами.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30058242bb.jpg",
                         Price=27000,
                         IsFavourite=true,
                         Available=true,
@@ -284,7 +284,7 @@ namespace Мarketplace.Data.Mocks
                         " и очень тонким корпусом. За высокую производительность в самых сложных сценариях отвечает восьмиядерный " +
                         "процессор флагманского уровня и оперативка 6 Гб, которая в зависимости от стиля использования способна " +
                         "расширяться виртуально на целых 4 Гб.",
-                        Img="",
+                        Img="https://img.mvideo.ru/Big/30059562bb.jpg",
                         Price=34000,
                         IsFavourite=true,
                         Available=true,
