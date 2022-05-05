@@ -1,15 +1,19 @@
 ﻿@model SmartphonesListViewModel
 
-    <h1>Все смартфоны</h1>
-    <h3>@Model.smartphonesCategory</h3>
+<h1>Все смартфоны</h1>
+<h3>@Model.smartphonesCategory</h3>
+<div class="row mt-5 mb-2">
     @{
-        foreach(var smartphones in Model.allSmartphones) 
+        foreach (var smartphones in Model.allSmartphones)
         {
-          <div class="col-lg-4">
-              <img class="img-thumbnail" src="@smartphones.Img"alt="@smartphones.Designation" />
-              <h2>Смартфон: @smartphones.Designation</h2>
-              <p>Цена: @smartphones.Price.ToString("c")</p>
-          </div>  
+            <div class="col-lg-4">
+                <img class="img-thumbnail" src="@smartphones.Img" alt="@smartphones.Designation" />
+                <h4>Смартфон: @smartphones.Designation</h4>
+                <h4> @smartphones.ShortDescription</h4>
+                <p>Цена: @smartphones.Price.ToString("c")</p>
+                <p><a class="btn btn-success" href="#">Подробнее</a></p>
+            </div>
         }
-     }
+    }
+</div>
 
