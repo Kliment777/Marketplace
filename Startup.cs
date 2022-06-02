@@ -23,7 +23,7 @@ namespace Мarketplace
            app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(name: "default","{controller=Smartphones}/{action=List}");
+                endpoints.MapControllerRoute(name:"default","{controller=Home}/{action=Index}");
             });
         }
     }

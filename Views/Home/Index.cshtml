@@ -1,0 +1,16 @@
+﻿@model HomeViewModel
+<h1>Самые популярные модели</h1>
+<div class="row mt-5 mb-2">
+    @{
+        foreach (var smartphones in Model.favSmartphones)
+        {
+            <div class="col-lg-4">
+                <img class="img-thumbnail" src="@smartphones.Img" alt="@smartphones.Designation" />
+                <h4>Смартфон: @smartphones.Designation</h4>
+                <h4> @smartphones.ShortDescription</h4>
+                <p>Цена: @smartphones.Price.ToString("c")</p>
+                <p><a class="btn btn-success" href="#">Подробнее</a></p>
+            </div>
+        }
+    }
+</div>

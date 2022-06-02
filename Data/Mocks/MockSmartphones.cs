@@ -301,8 +301,11 @@ namespace Мarketplace.Data.Mocks
 
         public IEnumerable<Smartphone> GetFavoritSmartphone
         {
-            get;
-            set;
+            get 
+            {
+                return Smartphones;
+            }
+            set { }
         }
 
         public Smartphone GetObjectSmartphone(int smartphoneId)
