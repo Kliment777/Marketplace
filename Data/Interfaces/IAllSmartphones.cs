@@ -6,7 +6,7 @@ namespace Мarketplace.Data.Interfaces
     public interface IAllSmartphones
     {
         IEnumerable<Smartphone> Smartphones { get; }
-        IEnumerable<Smartphone> GetFavoritSmartphone { get; set; }
+        IEnumerable<Smartphone> GetFavoritSmartphone { get; }
         Smartphone GetObjectSmartphone(int smartphoneId);
     }
 }
